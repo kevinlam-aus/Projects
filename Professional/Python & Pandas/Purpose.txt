@@ -1,0 +1,5 @@
+
+This was a program that I worked on to edit CSV files to 
+prepare the data before importing it into Gephi. 
+
+***DISCLAIMER: For confidentiality reasons, I had to change some of the structure as well as column names and am unable to include the datasets for the program to run.
