@@ -1,0 +1,169 @@
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.csprojAssemblyReference.cache
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorAssemblyInfo.cache
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorAssemblyInfo.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.AssemblyInfoInputs.cache
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.AssemblyInfo.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.TagHelpers.input.cache
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.TagHelpers.output.cache
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorCoreGenerate.cache
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.dll
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.pdb
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.deps.json
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.runtimeconfig.json
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.runtimeconfig.dev.json
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.dll
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.pdb
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.Views.dll
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.Views.pdb
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorTargetAssemblyInfo.cache
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorTargetAssemblyInfo.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.Views.pdb
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.csproj.CopyComplete
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/ChangePassword.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/Login.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/Register.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/RoleAdmin/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/RoleAdmin/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/RoleAdmin/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Details.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.deps.json
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.runtimeconfig.json
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.runtimeconfig.dev.json
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.dll
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.pdb
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.Views.dll
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.Views.pdb
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.csprojAssemblyReference.cache
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorAssemblyInfo.cache
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorAssemblyInfo.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.AssemblyInfoInputs.cache
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.AssemblyInfo.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.TagHelpers.input.cache
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.TagHelpers.output.cache
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorCoreGenerate.cache
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/ChangePassword.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/Login.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/Register.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/RoleAdmin/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/RoleAdmin/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/RoleAdmin/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorTargetAssemblyInfo.cache
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorTargetAssemblyInfo.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.Views.pdb
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.dll
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.pdb
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.csproj.CopyComplete
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Details.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Details.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Details.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Delete.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Delete.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Delete.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Delete.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Details.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Details.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Index.cshtml.g.cs
+/Volumes/RECOVERY/Old Work/MIS 333K/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.csprojAssemblyReference.cache
+/Volumes/RECOVERY/Old Work/MIS 333K/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorAssemblyInfo.cache
+/Volumes/RECOVERY/Old Work/MIS 333K/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorAssemblyInfo.cs
+/Volumes/RECOVERY/Old Work/MIS 333K/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.AssemblyInfoInputs.cache
+/Volumes/RECOVERY/Old Work/MIS 333K/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.AssemblyInfo.cs
+/Volumes/RECOVERY/Old Work/MIS 333K/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.dll
+/Volumes/RECOVERY/Old Work/MIS 333K/MIS Homework/HW6/Lam_Kevin_HW6/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.pdb
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.deps.json
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.runtimeconfig.json
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.runtimeconfig.dev.json
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.dll
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.pdb
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.Views.dll
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/bin/Debug/netcoreapp2.2/Lam_Kevin_HW6.Views.pdb
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.csprojAssemblyReference.cache
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorAssemblyInfo.cache
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorAssemblyInfo.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.AssemblyInfoInputs.cache
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.AssemblyInfo.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.TagHelpers.input.cache
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.TagHelpers.output.cache
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorCoreGenerate.cache
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/ChangePassword.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/Login.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Account/Register.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Delete.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/OrderDetails/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Delete.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Details.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Orders/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Details.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Products/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/RoleAdmin/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/RoleAdmin/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/RoleAdmin/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Create.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Details.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Edit.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/Suppliers/Index.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorTargetAssemblyInfo.cache
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.RazorTargetAssemblyInfo.cs
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.Views.pdb
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.dll
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.pdb
+/Users/kevinlam/Desktop/MIS 333K/MIS Homework/HW6/Food Ordering System/Lam_Kevin_HW6/obj/Debug/netcoreapp2.2/Lam_Kevin_HW6.csproj.CopyComplete

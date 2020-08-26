@@ -1,0 +1,49 @@
+@model Lam_Kevin_HW6.Models.Supplier
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Supplier</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SupplierName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SupplierName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SupplierEmail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SupplierEmail)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.SupplierPhoneNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.SupplierPhoneNumber)
+        </dd>
+</div>
+<table class="table table-sm table-primary">
+    <tr>
+        <th>Product</th>
+    </tr>
+    @foreach (ProductSupplier cd in Model.ProductSuppliers)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => cd.Product.ProductName)</td>
+        </tr>
+    }
+</table>
+<div>
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+    {
+        <a asp-action="Edit" asp-route-id="@Model.SupplierID">Edit</a><span>|</span>
+    }
+    <a asp-action="Index">Back to List</a>
+</div>

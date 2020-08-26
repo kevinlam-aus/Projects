@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{C6B8D022-E598-41B9-A83D-FA2298A89892}|Default">
+  <MonoDevelop.Ide.ItemProperties.Lam__Kevin__HW6 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lam_Kevin_HW6/Controllers/OrderDetailsController.cs">
+    <Files>
+      <File FileName="Lam_Kevin_HW6/Views/Orders/Create.cshtml" Line="1" Column="1" />
+      <File FileName="Lam_Kevin_HW6/Controllers/OrdersController.cs" />
+      <File FileName="Lam_Kevin_HW6/Models/Order.cs" />
+      <File FileName="Lam_Kevin_HW6/Views/Orders/Index.cshtml" />
+      <File FileName="Lam_Kevin_HW6/Controllers/OrderDetailsController.cs" Line="1" Column="1" />
+      <File FileName="Lam_Kevin_HW6/Views/Orders/Edit.cshtml" />
+      <File FileName="Lam_Kevin_HW6/Controllers/HomeController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lam_Kevin_HW6" expanded="True">
+            <Node name="Lam_Kevin_HW6" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="OrderDetailsController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Orders" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,13 @@
+
+The goal of this project is to create a food ordering system where users are able to order food and see the price.
+On the administrative side, they are able to add suppliers and food products for the customers to order.
+The may not have full functionality as the database is connected to Azure Data Studio in which the education credit has expired
+
+Additional Business Rules
+    1.	There are two classifications of users: customers and administrators (admins).
+    Users can register themselves as customers, but admins cannot register themselves as admins.  
+    An existing admin can add a customer to the admin role using the RoleAdmin pages.
+
+    2.	Only admins can see the page to change the role of a customer (RoleAdmin).  
+    Anonymous users and registered customers should not see the link to Manage Users.  
+    If non-admins attempt to visit the page by typing in the URL, they should see either a request to log in or an error page.

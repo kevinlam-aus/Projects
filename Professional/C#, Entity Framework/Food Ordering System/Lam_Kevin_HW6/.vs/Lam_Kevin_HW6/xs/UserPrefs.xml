@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{48E8D30F-BAC0-4249-B641-8666B5984E5D}|Default">
+  <MonoDevelop.Ide.ItemProperties.Lam__Kevin__HW6 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/AppUser.cs">
+    <Files>
+      <File FileName="Controllers/ProductsController.cs" Line="1" Column="1" />
+      <File FileName="Utilities/GenerateNextRegistrationNumber.cs" />
+      <File FileName="Controllers/OrdersController.cs" />
+      <File FileName="Controllers/OrderDetailsController.cs" Line="83" Column="16" />
+      <File FileName="Views/Orders/Index.cshtml" />
+      <File FileName="Views/Products/Create.cshtml" />
+      <File FileName="Views/Products/Index.cshtml" />
+      <File FileName="Models/AppUser.cs" Line="1" Column="1" />
+      <File FileName="Seeding/SeedIdentity.cs" />
+      <File FileName="Views/OrderDetails/Edit.cshtml" />
+      <File FileName="Views/OrderDetails/Index.cshtml" />
+      <File FileName="Views/OrderDetails/Create.cshtml" />
+      <File FileName="Program.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="Models/Supplier.cs" Line="1" Column="1" />
+      <File FileName="Models/ProductSupplier.cs" Line="1" Column="1" />
+      <File FileName="Models/Product.cs" Line="1" Column="1" />
+      <File FileName="Models/OrderDetail.cs" Line="1" Column="1" />
+      <File FileName="Models/Order.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lam_Kevin_HW6" expanded="True">
+            <Node name="Lam_Kevin_HW6" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="AppUser.cs" selected="True" />
+              </Node>
+              <Node name="Seeding" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="OrderDetails" expanded="True" />
+                <Node name="Orders" expanded="True" />
+                <Node name="Products" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
