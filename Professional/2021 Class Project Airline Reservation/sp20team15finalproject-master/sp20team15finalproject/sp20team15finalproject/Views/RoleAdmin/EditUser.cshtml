@@ -1,0 +1,174 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model sp20team15finalproject.Models.ViewModels.AccountChangeViewModel
+<h1>Edit User</h1>
+
+<h3>We have the following info based on the user:</h3>
+
+
+<form asp-action="UpdateUser">
+    <div>
+        <hr />
+        <dl class="row">
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.AdvantageNumber)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.AdvantageNumber)
+            </dd>
+
+            <br />
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.FirstName)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.FirstName)
+            </dd>
+
+            @Html.HiddenFor(model => model.newEmail, new { @value = Model.newEmail })
+
+            <br />
+            <br />
+            <br />
+
+            <h6>Please enter the new first name of this user :</h6>
+            <input asp-for="newFirstName" class="custom-control-label" />
+
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.MiddleInitial)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.MiddleInitial)
+            </dd>
+            <h1>Please enter the new MIDDLE INITIAL of this user :</h1>
+            <input asp-for="newMiddleInitial" class="custom-control-label" />
+
+            <br />
+            <br />
+            <br />
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.LastName)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.LastName)
+            </dd>
+            <h6>Please enter the new last name of this user :</h6>
+            <input asp-for="newLastName" class="custom-control-label" />
+
+            <br />
+            <br />
+            <br />
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.Email)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.Email)
+            </dd>
+            <h6>Please enter the new email of this user :</h6>
+            <input asp-for="newEmail" class="custom-control-label" />
+
+            <br />
+            <br />
+            <br />
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.PhoneNumber)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.PhoneNumber)
+            </dd>
+            <h6>Please enter the new phone numer of this user :</h6>
+            <input asp-for="newPhoneNumber" class="custom-control-label" />
+
+            <br />
+            <br />
+            <br />
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.DOB)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.DOB)
+            </dd>
+            <h6>Please enter the new Date of Birth of this user :</h6>
+            <input asp-for="newFirstName" class="custom-control-label" />
+
+            <br />
+            <br />
+            <br />
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.Address)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.Address)
+            </dd>
+            <h6>Please enter the new Address of this user :</h6>
+            <input asp-for="newAddress" class="custom-control-label" />
+
+            <br />
+            <br />
+            <br />
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.City)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.City)
+            </dd>
+            <h6>Please enter the new City of this user :</h6>
+            <input asp-for="newCity" class="custom-control-label" />
+
+            <br />
+            <br />
+            <br />
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.State)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.State)
+            </dd>
+            <h6>Please enter the new State of this user :</h6>
+            <input asp-for="newState" class="custom-control-label" />
+
+            <br />
+            <br />
+            <br />
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.ZipCode)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.ZipCode)
+            </dd>
+            <h6>Please enter the new Zip Code of Birth of this user :</h6>
+            <input asp-for="newZip" class="custom-control-label" />
+
+            <br />
+            <br />
+            <br />
+
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.persontochange.RewardMiles)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.persontochange.RewardMiles)
+            </dd>
+            <h6>Please enter the new Advantage Miles of this user :</h6>
+            <input asp-for="newRewardMiles" class="custom-control-label" />
+
+            <br />
+            <br />
+            <br />
+        </dl>
+    </div>
+    <button type="submit" class="btn btn-danger">Save Changes</button>
+</form>

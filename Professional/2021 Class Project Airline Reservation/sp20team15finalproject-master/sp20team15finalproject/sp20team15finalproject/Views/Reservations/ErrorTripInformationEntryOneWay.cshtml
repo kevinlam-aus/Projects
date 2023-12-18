@@ -1,0 +1,47 @@
+﻿
+
+@model sp20team15finalproject.Models.ViewModels.ReservationSearchViewModel
+@using Models.ViewModels
+<h1>Could not find results because of the following reason:</h1>
+<div class="text-danger"> @ViewBag.ErrorMess</div>
+<h2>Please change your search and try again.</h2>
+
+@{
+    ViewData["Title"] = "TripDepartingInfoEntry";
+}
+
+@Html.ValidationSummary("", new { @class = "text-danger" })
+<div class="text-danger"> @ViewBag.ErrorMessage</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="DepartingFlightSearchAsync" , method='get'>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NumberOfPassengers" class="control-label"></label>
+                <input asp-for="NumberOfPassengers" class="form-control" />
+                <span asp-validation-for="NumberOfPassengers" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="departingCityID" class="control-label"></label>
+                @Html.DropDownListFor(model => model.departingCityID, (SelectList)ViewBag.AllCities, new { @class = "form-control" })
+                <span asp-validation-for="departingCityID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="departureDate" class="control-label"></label>
+                <input asp-for="departureDate" class="form-control" />
+                <span asp-validation-for="departureDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="arrivalCityID" class="control-label"></label>
+                @Html.DropDownListFor(model => model.arrivalCityID, (SelectList)ViewBag.AllCities, new { @class = "form-control" })
+                <span asp-validation-for="arrivalCityID" class="text-danger"></span>
+            </div>
+            @Html.HiddenFor(model => model.TripType, new { @value = enumTripType.one_way })
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+

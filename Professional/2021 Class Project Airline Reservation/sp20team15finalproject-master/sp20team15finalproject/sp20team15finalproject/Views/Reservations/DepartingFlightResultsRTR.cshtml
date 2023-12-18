@@ -1,0 +1,56 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model IEnumerable<sp20team15finalproject.Models.FlightDetail>
+@using Models.ViewModels
+<h1>We have found the following Returning flights based on your search:</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.FlightNumber)
+            </th>
+            <th>
+                Departing City Name
+            </th>
+            <th>
+                Arrival City Name
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <th>
+                @Html.DisplayFor(modelitem => item.Date)
+            </th>
+            <th>
+                @Html.DisplayFor(modelitem => item.Flight.FlightNumber)
+            </th>
+            <th>
+                @Html.DisplayFor(modelitem => item.Flight.DepartingCity.CityName)
+            </th>
+            <th>
+                @Html.DisplayFor(modelitem => item.Flight.ArrivingCity.CityName)
+            </th>
+            <td>
+                <a asp-action="AddFlightToCart"asp-route-id="@item.FlightDetailID">Select Flight</a>
+            </td>
+            
+
+        </tr>
+        }
+    </tbody>
+</table>
+
+

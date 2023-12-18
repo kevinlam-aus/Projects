@@ -1,0 +1,92 @@
+﻿@model sp20team15finalproject.Models.ViewModels.ReservationDetailsViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+<h1>Details on the Reservation</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Flight Number
+            </th>
+            <th>
+               Date
+            </th>
+            <th>
+                Seat
+            </th>
+            <th>
+                First Name
+            </th>
+            <th>
+                Last Name
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Price
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Ticket ticket in Model.Tickets)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => ticket.Flightdetail.Flight.FlightNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => ticket.Flightdetail.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => ticket.Seat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => ticket.Name.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => ticket.Name.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => ticket.Name.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => ticket.Price)
+            </td>
+            <td>
+                <a asp-action="ChangeSeat" asp-route-id="@ticket.TicketID">Change Seat</a>
+            </td>
+        </tr>
+        }
+
+
+    </tbody>
+</table>
+
+
+<h4>@ViewBag.Message</h4>
+
+<h5>Reservation Summary</h5>
+<table class="table table-sm table-bordered" style="width:30%">
+    <tr>
+        <th colspan="2" style="text-align:center">Reservation Totals</th>
+    </tr>
+    <tr>
+        <td>Order Subtotal:</td>
+        <td>@Html.DisplayFor(model => model.reservation.Subtotal)</td>
+    </tr>
+    <tr>
+        <td>Sales Tax:</td>
+        <td>@Html.DisplayFor(model => model.reservation.Tax)</td>
+    </tr>
+    <tr>
+        <td>Order Total:</td>
+        <td>@Html.DisplayFor(model => model.reservation.TotalPrice)</td>
+    </tr>
+</table>

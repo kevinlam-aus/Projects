@@ -1,0 +1,84 @@
+﻿@model sp20team15finalproject.Models.Flight
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Flight</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlightNumber)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlightNumber)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DepTime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DepTime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Days)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Days)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlySun)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlySun)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlyMon)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlyMon)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlyTue)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlyTue)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlyWed)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlyWed)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlyThu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlyThu)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlyFri)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlyFri)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FlySat)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FlySat)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BaseFare)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BaseFare)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.FlightID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

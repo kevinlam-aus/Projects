@@ -1,0 +1,57 @@
+﻿@model sp20team15finalproject.Models.ViewModels.UserListViewModel
+
+    <table class="table">
+        <form asp-action="EditInfo">
+
+            <h3>Please enter the email of the user you wish to edit:</h3>
+
+            <input asp-for="UserEmail" class="custom-control-label" />
+
+            <button type="submit" class="btn btn-danger">Submit</button>
+
+
+
+            <thead>
+                <tr>
+
+                    <th>
+                        Advantage Number
+                    </th>
+
+                    <th>
+                        First Name
+                    </th>
+
+                    <th>
+                        Last Name
+                    </th>
+
+                    <th>
+                        Email
+                    </th>
+
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Users)
+                {
+                    <tr>
+                        <th>
+                            @Html.DisplayFor(modelitem => item.AdvantageNumber)
+                        </th>
+                        <th>
+                            @Html.DisplayFor(modelitem => item.FirstName)
+                        </th>
+                        <th>
+                            @Html.DisplayFor(modelitem => item.LastName)
+                        </th>
+                        <th>
+                            @Html.DisplayFor(modelitem => item.Email)
+                        </th>
+
+                    </tr>
+                }
+            </tbody>
+            </form>
+    </table>

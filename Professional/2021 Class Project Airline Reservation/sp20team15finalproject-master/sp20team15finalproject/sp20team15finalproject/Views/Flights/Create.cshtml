@@ -1,0 +1,87 @@
+﻿@model sp20team15finalproject.Models.ViewModels.FlightAdditionViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Flight</h4>
+
+<div class="text-danger"> @ViewBag.ErrorMessage</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateFlight">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="DepTime" class="control-label"></label>
+                <input asp-for="DepTime" class="form-control" />
+                <span asp-validation-for="DepTime" class="text-danger"></span>
+            </div>
+
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="FlySun" /> @Html.DisplayNameFor(model => model.FlySun)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="FlyMon" /> @Html.DisplayNameFor(model => model.FlyMon)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="FlyTue" /> @Html.DisplayNameFor(model => model.FlyTue)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="FlyWed" /> @Html.DisplayNameFor(model => model.FlyWed)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="FlyThu" /> @Html.DisplayNameFor(model => model.FlyThu)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="FlyFri" /> @Html.DisplayNameFor(model => model.FlyFri)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="FlySat" /> @Html.DisplayNameFor(model => model.FlySat)
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="BaseFare" class="control-label"></label>
+                <input asp-for="BaseFare" class="form-control" />
+                <span asp-validation-for="BaseFare" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DepartingCityID" class="control-label"></label>
+                @Html.DropDownListFor(Model => Model.DepartingCityID, (SelectList)ViewBag.AllCities, new { @class = "form-control" })
+                <span asp-validation-for="DepartingCityID" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ArrivingCityID" class="control-label"></label>
+                @Html.DropDownListFor(Model => Model.ArrivingCityID, (SelectList)ViewBag.AllCities, new { @class = "form-control" })
+                <span asp-validation-for="ArrivingCityID" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

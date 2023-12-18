@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model sp20team15finalproject.Models.ViewModels.FrontGateViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Please select what you would like to do with this flight:</h4>
+    <hr />
+
+    <form asp-action="CheckIn">
+        @Html.HiddenFor(model => model.FlightDetailID, new { @value = Model.FlightDetailID })
+        <div class="form-group">
+            <input type="submit" value="Check People In" class="btn btn-primary" />
+        </div>
+    </form>
+
+    <form asp-action="FlightDeparture">
+        @Html.HiddenFor(model => model.FlightDetailID, new { @value = Model.FlightDetailID })
+        <div class="form-group">
+            <input type="submit" value="Mark Flight as Departed" class="btn btn-primary" />
+        </div>
+    </form>
+
+</div>

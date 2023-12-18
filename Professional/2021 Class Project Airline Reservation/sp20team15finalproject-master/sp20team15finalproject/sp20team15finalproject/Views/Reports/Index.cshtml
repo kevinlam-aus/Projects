@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@*TODO: show table of existing reports*@
+
+<p>
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+    {
+        <a asp-action="ReportsSearch">Create a New Report</a>
+        <a asp-action="FlightManifests">See Flight Manifests</a>
+    }
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Manager"))
+    {
+        <a asp-action="ReportsSearch">Create a New Report</a>
+        <a asp-action="FlightManifests">See Flight Manifests</a>
+    }
+</p>

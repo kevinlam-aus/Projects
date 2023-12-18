@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App">
+      <PrivateAssets Condition="'%(PackageReference.Version)' == ''">all</PrivateAssets>
+      <Publish Condition="'%(PackageReference.Version)' == ''">true</Publish>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Seed\" />
+    <Folder Include="wwwroot\lib\" />
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\EnumModels\Days.cs" />
+    <Compile Remove="Seeding\SeedEmployees.cs" />
+    <Compile Remove="Migrations\20200423223943_FixedFlightDetailsIII.cs" />
+    <Compile Remove="Migrations\20200422221949_AddedCityDetails.cs" />
+    <Compile Remove="Migrations\20200426013929_FixedReservation.cs" />
+    <Compile Remove="Migrations\20200426222853_finalizedmodels.Designer.cs" />
+    <Compile Remove="Migrations\20200423223943_FixedFlightDetailsIII.Designer.cs" />
+    <Compile Remove="Migrations\20200414210818_InitialMigration.Designer.cs" />
+    <Compile Remove="Migrations\20200421161420_FixedFlightI.cs" />
+    <Compile Remove="Migrations\AppDbContextModelSnapshot.cs" />
+    <Compile Remove="Migrations\20200426222853_finalizedmodels.cs" />
+    <Compile Remove="Migrations\20200416054158_Setup.Designer.cs" />
+    <Compile Remove="Migrations\20200423171040_FixedFlightDetailsI.Designer.cs" />
+    <Compile Remove="Migrations\20200420230720_FixedFlight.Designer.cs" />
+    <Compile Remove="Migrations\20200421224437_citynameisntafreakingdate.Designer.cs" />
+    <Compile Remove="Migrations\20200426013955_FixedReservationII.cs" />
+    <Compile Remove="Migrations\20200414210818_InitialMigration.cs" />
+    <Compile Remove="Migrations\20200422222906_FixedCityDetails.cs" />
+    <Compile Remove="Migrations\20200423170328_ChangedFlightDetails.Designer.cs" />
+    <Compile Remove="Migrations\20200423230547_FixedFlightDetailsIV.Designer.cs" />
+    <Compile Remove="Migrations\20200421161420_FixedFlightI.Designer.cs" />
+    <Compile Remove="Migrations\20200423170328_ChangedFlightDetails.cs" />
+    <Compile Remove="Migrations\20200423171326_FixedFlightDetailsII.cs" />
+    <Compile Remove="Migrations\20200423171326_FixedFlightDetailsII.Designer.cs" />
+    <Compile Remove="Migrations\20200416054158_Setup.cs" />
+    <Compile Remove="Migrations\20200426013955_FixedReservationII.Designer.cs" />
+    <Compile Remove="Migrations\20200422222906_FixedCityDetails.Designer.cs" />
+    <Compile Remove="Migrations\20200426020555_GettingReservationsToWork.Designer.cs" />
+    <Compile Remove="Migrations\20200421224001_CityAdded.cs" />
+    <Compile Remove="Migrations\20200421224001_CityAdded.Designer.cs" />
+    <Compile Remove="Migrations\20200421222532_FixedCity.Designer.cs" />
+    <Compile Remove="Migrations\20200423171040_FixedFlightDetailsI.cs" />
+    <Compile Remove="Migrations\20200421222532_FixedCity.cs" />
+    <Compile Remove="Migrations\20200420230720_FixedFlight.cs" />
+    <Compile Remove="Migrations\20200426020555_GettingReservationsToWork.cs" />
+    <Compile Remove="Migrations\20200426013929_FixedReservation.Designer.cs" />
+    <Compile Remove="Migrations\20200422221949_AddedCityDetails.Designer.cs" />
+    <Compile Remove="Migrations\20200423230547_FixedFlightDetailsIV.cs" />
+    <Compile Remove="Migrations\20200421224437_citynameisntafreakingdate.cs" />
+    <Compile Remove="Migrations\20200426231312_Setup.cs" />
+    <Compile Remove="Migrations\20200430132614_FixedAppUser.Designer.cs" />
+    <Compile Remove="Migrations\20200430132614_FixedAppUser.cs" />
+  </ItemGroup>
+</Project>

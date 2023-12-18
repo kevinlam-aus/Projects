@@ -1,0 +1,93 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model sp20team15finalproject.Models.ViewModels.CheckoutViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Checkout Page</h1>
+
+
+<h5>Tickets on this Reservation</h5>
+<table class="table table-primary">
+    <tr>
+        <th>Flight Number</th>
+        <th>Seat</th>
+        <th>Email</th>
+        <th>Price</th>
+
+    </tr>
+    @foreach (Ticket t in Model.Tickets)
+    {
+        <tr>
+            <td>@Html.DisplayFor(ModelItem => t.Flightdetail.Flight.FlightNumber)</td>
+            <td>@Html.DisplayFor(ModelItem => t.Seat)</td>
+            <td>@Html.DisplayFor(ModelItem => t.Name.Email)</td>
+            <td>@Html.DisplayFor(ModelItem => t.Price)</td>
+        </tr>
+    }
+</table>
+
+
+<h5>Reservation Summary</h5>
+<table class="table table-sm table-bordered" style="width:30%">
+    <tr>
+        <th colspan="2" style="text-align:center">Reservation Totals</th>
+    </tr>
+    <tr>
+        <td>Order Subtotal:</td>
+        <td>@Html.DisplayFor(model => model.Subtotal)</td>
+    </tr>
+    <tr>
+        <td>Sales Tax:</td>
+        <td>@Html.DisplayFor(model => model.Theft)</td>
+    </tr>
+    <tr>
+        <td>Order Total:</td>
+        <td>@Html.DisplayFor(model => model.Total)</td>
+    </tr>
+    <tr>
+        <td>Cost in Miles:</td>
+        <td>@Html.DisplayFor(model => model.MileageCost)</td>
+    </tr>
+
+</table>
+
+<h5>User Miles</h5>
+<table class="table table-sm table-bordered" style="width:30%">
+    <tr>
+        <th colspan="2" style="text-align:center">Your Miles</th>
+    </tr>
+    <tr>
+        <td>Miles on your Account:</td>
+        <td>@Html.DisplayFor(model => model.user.RewardMiles)</td>
+    </tr>
+    
+
+</table>
+
+
+<form asp-action="CheckoutCreditCard">
+    <div class="form-group">
+        @Html.HiddenFor(model => model.Total, new { @value = Model.Total })
+        @Html.HiddenFor(model => model.ReservationID, new { @value = Model.ReservationID })
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Check Out With Credit Card" class="btn btn-success" />
+        </div>
+    </div>
+</form>
+
+<form asp-action="CheckoutMiles">
+    <div class="form-group">
+        @Html.HiddenFor(model => model.Total, new { @value = Model.Total })
+        @Html.HiddenFor(model => model.ReservationID, new { @value = Model.ReservationID })
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Check Out With Reward Miles" class="btn btn-danger" />
+        </div>
+    </div>
+</form>

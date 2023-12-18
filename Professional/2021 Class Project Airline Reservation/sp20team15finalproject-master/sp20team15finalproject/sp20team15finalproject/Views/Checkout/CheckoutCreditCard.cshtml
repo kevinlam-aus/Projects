@@ -1,0 +1,40 @@
+﻿
+
+@model sp20team15finalproject.Models.ViewModels.CheckoutViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Please enter your Credit Card Information:</h1>
+
+<h3>Total to be Charged: $@Model.Total</h3>
+
+<h2>@ViewBag.ErrorMessage</h2>
+
+Name:
+<input class="control-label" />
+<br />
+<br />
+Credit Card Number:
+<input type="number" class="control-label" />
+<br />
+<br />
+Expiration:
+<input class="control-label" />
+<br />
+<br />
+Security Number:
+<input type="number" class="control-label" />
+<br />
+<br />
+
+<form asp-action="CheckoutConfirmation">
+    <div class="form-group">
+        @Html.HiddenFor(model => model.Total, new { @value = Model.Total })
+        @Html.HiddenFor(model => model.ReservationID, new { @value = Model.ReservationID })
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Check Out" class="btn btn-danger" />
+        </div>
+    </div>
+</form>

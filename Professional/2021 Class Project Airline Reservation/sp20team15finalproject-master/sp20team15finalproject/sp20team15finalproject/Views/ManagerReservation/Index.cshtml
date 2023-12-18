@@ -1,0 +1,22 @@
+﻿
+
+<h1>Welcome to Manager Checkout!</h1>
+
+<h3>Ask the User if they have an existing account.</h3>
+    <form asp-action="CreateNewAccount">
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create an account for the New User." class="btn btn-danger" />
+            </div>
+        </div>
+    </form>
+<br />
+<br />
+<br />
+    <form asp-action="CustomerLookup">
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Customer Already Has Account" class="btn btn-danger" />
+            </div>
+        </div>
+    </form>

@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model sp20team15finalproject.Models.ViewModels.FrontGateViewModel
+<h1>People on this Flight:</h1>
+
+<form asp-action="CheckCustomerIn">
+    <div class="panel panel-primary">
+        <table class="table table-striped">
+
+            <tr>
+                <th>TicketID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Seat</th>
+            </tr>
+            @foreach (Ticket ticket in Model.tickets)
+            {
+                <tr>
+                    <td>@ticket.TicketID</td>
+                    <td>@ticket.Name.FirstName</td>
+                    <td>@ticket.Name.LastName</td>
+                    <td>@ticket.Name.Email</td>
+                    <td>
+                        @ticket.Seat
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+
+    <h3>Please enter the Ticket ID of the seat you want to check in:</h3>
+    @Html.HiddenFor(model => model.FlightDetailID, new { @value = Model.FlightDetailID })
+    <input asp-for="checkinTicketID" type="number" class="custom-control-label" />
+
+    <button type="submit" class="btn btn-danger">Submit</button>
+
+    <a asp-action="Index" class="btn btn-warning">Go Back Home / Done Checking In</a>
+</form>

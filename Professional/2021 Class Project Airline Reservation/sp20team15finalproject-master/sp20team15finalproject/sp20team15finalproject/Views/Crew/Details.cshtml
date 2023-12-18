@@ -1,0 +1,56 @@
+﻿
+@model sp20team15finalproject.Models.ViewModels.CrewSearchViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Flight</h4>
+    <hr />
+
+
+    <table class="table table-striped">
+        <tr>
+            <th>Email</th>
+            <th>Role</th>
+        </tr>
+        @foreach (Ticket ticket in Model.tickets)
+        {
+            <tr>
+                <td>@ticket.Name</td>
+                <td>@ticket.Seat</td>
+
+            </tr>
+        }
+
+
+    </table>
+
+
+
+    <form asp-action="AddPilot">
+        @Html.HiddenFor(model => model.FlightDetailID, new { @value = Model.FlightDetailID })
+        <div class="form-group">
+            <input type="submit" value="Add or Edit the Pilot to this Flight" class="btn btn-primary" />
+        </div>
+    </form>
+
+    <form asp-action="AddCoPilot">
+        @Html.HiddenFor(model => model.FlightDetailID, new { @value = Model.FlightDetailID })
+        <div class="form-group">
+            <input type="submit" value="Add or Edit the Co-Pilot to this Flight" class="btn btn-primary" />
+        </div>
+    </form>
+
+    <form asp-action="AddAttendant">
+        @Html.HiddenFor(model => model.FlightDetailID, new { @value = Model.FlightDetailID })
+        <div class="form-group">
+            <input type="submit" value="Add or Edit the Attendant to this Flight" class="btn btn-primary" />
+        </div>
+    </form>
+
+
+</div>

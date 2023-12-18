@@ -1,0 +1,51 @@
+﻿@model sp20team15finalproject.Models.ViewModels.TicketViewModel
+
+<h1>Select A Next Passenger:</h1>
+<form asp-action="SeatSelection">
+    <h3>Please enter the email of the passenger you wish to add:</h3>
+    <input asp-for="CustomerEmail" class="custom-control-label" />
+
+    <button type="submit" class="btn btn-danger">Submit</button>
+    <p>
+        Displaying @ViewBag.AllUserCount Users
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>AdvantageNumber</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Customer in Model.Customers)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => Customer.AdvantageNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => Customer.FirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => Customer.LastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => Customer.Email)
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @Html.HiddenFor(model => model.departureFlightDetailID, new { @value = Model.departureFlightDetailID })
+    @Html.HiddenFor(model => model.ReservationID, new { @value = Model.ReservationID })
+    @Html.HiddenFor(model => model.arrivingFlightDetailID, new { @value = Model.arrivingFlightDetailID })
+    @Html.HiddenFor(model => model.TripType, new { @value = Model.TripType })
+    @Html.HiddenFor(model => model.NumberOfPassengers, new { @value = Model.NumberOfPassengers })
+    @Html.HiddenFor(model => model.availableDepartureSeats, new { @value = Model.availableDepartureSeats })
+    @Html.HiddenFor(model => model.availableArrivalSeats, new { @value = Model.availableArrivalSeats })
+    @Html.HiddenFor(model => model.personOnTicket, new { @value = Model.personOnTicket })
+    @Html.HiddenFor(model => model.allUsers, new { @value = Model.allUsers })
+    @Html.HiddenFor(model => model.Customers, new { @value = Model.Customers })
+</form>

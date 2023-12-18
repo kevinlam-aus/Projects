@@ -1,0 +1,36 @@
+﻿
+
+@model sp20team15finalproject.Models.ViewModels.CrewSearchViewModel
+
+
+<h1>Select your Attendant:</h1>
+
+<form asp-action="AddNewAttendant">
+    <div class="panel panel-primary">
+        <table class="table table-striped">
+
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+            @foreach (AppUser pilot in Model.Pilots)
+            {
+                <tr>
+                    <td>@pilot.FirstName</td>
+                    <td>@pilot.LastName</td>
+                    <td>
+                        @pilot.Email
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+
+    <h3>Please enter the email of the pilot you wish to add:</h3>
+    @Html.HiddenFor(model => model.FlightDetailID, new { @value = Model.FlightDetailID })
+    <input asp-for="PilotEmail" class="custom-control-label" />
+
+    <button type="submit" class="btn btn-danger">Submit</button>
+</form>

@@ -1,0 +1,56 @@
+﻿@model sp20team15finalproject.Models.ViewModels.ReportsViewModel
+@using sp20team15finalproject.Controllers
+@{
+    ViewData["Title"] = "ReportsSearch";
+}
+
+<h1>ReportsSearch</h1>
+
+<h4>ReportsViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="DisplaySearchResults">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label class="radio">@Html.RadioButtonFor(model => model.ReportType, ReportType.TotalSeats) Total Seats</label>
+                <label class="radio">@Html.RadioButtonFor(model => model.ReportType, ReportType.TotalRevenue) Total Revenue</label>
+                <label class="radio">@Html.RadioButtonFor(model => model.ReportType, ReportType.Both) Both</label>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOne" class="control-label"></label>
+                <input asp-for="DateOne" class="form-control" />
+                <span asp-validation-for="DateOne" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateTwo" class="control-label"></label>
+                <input asp-for="DateTwo" class="form-control" />
+                <span asp-validation-for="DateTwo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DepSearchID" class="control-label"></label>
+                @Html.DropDownListFor(model => model.DepSearchID, (SelectList)ViewBag.AllCities, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label asp-for="ArrSearchID" class="control-label"></label>
+                @Html.DropDownListFor(model => model.ArrSearchID, (SelectList)ViewBag.AllCities, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label class="radio">@Html.RadioButtonFor(model => model.ClassSearch, ClassSearch.Economy) Economy</label>
+                <label class="radio">@Html.RadioButtonFor(model => model.ClassSearch, ClassSearch.FirstClass) First Class</label>
+                <label class="radio">@Html.RadioButtonFor(model => model.ClassSearch, ClassSearch.Both) Both</label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

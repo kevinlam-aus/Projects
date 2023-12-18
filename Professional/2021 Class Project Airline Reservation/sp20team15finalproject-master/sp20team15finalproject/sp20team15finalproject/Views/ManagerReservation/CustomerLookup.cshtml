@@ -1,0 +1,59 @@
+﻿
+
+@model sp20team15finalproject.Models.ViewModels.ManagerReservationViewModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Customer Lookup</h1>
+
+<div>
+    <h4>Select your Customer:</h4>
+    <hr />
+
+    <h3>Viewing @ViewBag.SelectedUserCount of @ViewBag.AllUserCount Users</h3>
+
+    <form asp-action="InputFlightInfo">
+        <div class="form-group">
+            <h3>Please enter the email of the Customer you wish to make a reservation for:</h3>
+            <input asp-for="CustEmail" class="custom-control-label" />
+            <input type="submit" value="Enter" class="btn btn-primary" />
+        </div>
+    </form>
+
+    <form asp-action="DetailedCustomerSearch">
+        <div class="form-group">
+            <input type="submit" value="Detailed Customer Search" class="btn btn-primary" />
+        </div>
+    </form>
+
+
+    <table class="table table-striped">
+        <tr>
+            <th>Advantage Number</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+        @foreach (AppUser user in Model.Customers)
+        {
+            <tr>
+                <td>@user.AdvantageNumber</td>
+                <td>@user.FirstName</td>
+                <td>@user.LastName</td>
+                <td>@user.Email</td>
+
+
+
+            </tr>
+        }
+
+
+    </table>
+
+
+
+
+
+
+</div>

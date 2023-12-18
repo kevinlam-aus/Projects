@@ -1,0 +1,117 @@
+﻿@model IEnumerable<FlightDetail>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h2>Welcome to our Airline Home Page!</h2>
+
+
+@if (User.Identity.IsAuthenticated == false)
+{
+    <img src="~/img/logo2.png" />
+    <h3>Please Log In to book our flights!</h3>
+}
+@if (User.Identity.IsAuthenticated)
+
+{
+
+
+    if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Index" asp-controller="Flights" class="btn btn-danger">View Flights</a>
+        <a asp-action="Index" asp-controller="RoleAdmin" class="btn btn-warning">Manage Users</a>
+        <a asp-action="Index" asp-controller="Reports" class="btn btn-success">View Reports</a>
+        <a asp-action="Index" asp-controller="Crew" class="btn btn-danger">View Crew</a>
+        <a asp-action="Index" asp-controller="FrontGate" class="btn btn-warning">Front Gate Functions (Check-in / Flight Departure)</a>
+        <a asp-action="Index" asp-controller="ManagerReservation" class="btn btn-success">Manager Reservation</a>
+        <a asp-action="Index" asp-controller="FlightDelete" class="btn btn-danger">Flight Delete</a>
+
+    }
+
+    if (User.IsInRole("Customer"))
+    {
+        <a asp-action="Index" asp-controller="Reservations" class="btn btn-success">See your Existing Reservations or Make a New One</a>
+
+    }
+
+    if (User.IsInRole("Crew"))
+    {
+
+
+    }
+
+    if (User.IsInRole("Agents"))
+    {
+        <a asp-action="Index" asp-controller="FrontGate" class="btn btn-danger">Front Gate Functions (Check-in / Flight Departure)</a>
+        <a asp-action="Index" asp-controller="ManagerReservation" class="btn btn-success">Manager Reservation</a>
+    }
+
+    if (User.IsInRole("Manager"))
+    {
+        <a asp-action="Index" asp-controller="Flights" class="btn btn-danger">View Flights</a>
+        <a asp-action="Index" asp-controller="RoleAdmin" class="btn btn-warning">Manage Users</a>
+        <a asp-action="Index" asp-controller="Reports" class="btn btn-success">View Reports</a>
+        <a asp-action="Index" asp-controller="Crew" class="btn btn-danger">View Crew</a>
+        <a asp-action="Index" asp-controller="FrontGate" class="btn btn-warning">Front Gate Functions (Check-in / Flight Departure)</a>
+        <a asp-action="Index" asp-controller="ManagerReservation" class="btn btn-success">Manager Reservation</a>
+        <a asp-action="Index" asp-controller="FlightDelete" class="btn btn-danger">Flight Delete</a>
+
+    }
+
+}
+
+<h1>Available Flights</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.FlightNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.BaseFare)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.DepartingCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.ArrivingCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.FlightTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Flight.FlightNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Flight.BaseFare)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Flight.DepartingCity.CityName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Flight.ArrivingCity.CityName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Flight.FlightTime)
+                </td>
+                <td>
+            </tr>
+        }
+    </tbody>
+</table>

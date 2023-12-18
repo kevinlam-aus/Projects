@@ -1,0 +1,72 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<FlightDetail>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h2>Welcome to Crew Scheduling! Please select a flight below to edit.</h2>
+
+
+<h1>Flights</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.FlightNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.BaseFare)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.DepartingCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.ArrivingCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight.FlightTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Flight.FlightNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Flight.BaseFare)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Flight.DepartingCity.CityName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Flight.ArrivingCity.CityName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Flight.FlightTime)
+            </td>
+
+            <td>
+                <a asp-action="Details" asp-route-id="@item.FlightDetailID">View or Edit Crew</a> |
+            </td>
+            <td>
+        </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,38 @@
+﻿@model sp20team15finalproject.Models.ViewModels.ReportsViewModel
+
+@{
+    ViewData["Title"] = "DisplayFlightManifests";
+}
+
+<h1>Flight Manifests</h1>
+
+<div>
+    <h4></h4>
+    <hr />
+
+
+    <table class="table table-striped">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Advantage Number</th>
+            <th>Email</th>
+            <th>Seat</th>
+        </tr>
+        @foreach (Ticket ticket in Model.tickets)
+        {
+            <tr>
+                <td>@ticket.Name.FirstName</td>
+                <td>@ticket.Name.LastName</td>
+                <td>@ticket.Name.AdvantageNumber</td>
+                <td>@ticket.Name.Email</td>
+                <td>@ticket.Seat</td>
+
+            </tr>
+        }
+
+
+    </table>
+
+
+</div>

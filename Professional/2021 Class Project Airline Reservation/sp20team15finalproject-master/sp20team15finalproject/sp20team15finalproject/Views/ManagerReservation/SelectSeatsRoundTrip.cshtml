@@ -1,0 +1,88 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@using Models.ViewModels
+@model sp20team15finalproject.Models.ViewModels.ReservationSelectionViewModel
+<h1>Please Select Your Seat For Your Departing Flight:</h1>
+
+@*Insert some code here that allows the user to see the seats.*@
+<H6>@ViewBag.TakenSeats</H6>
+
+<H6>@ViewBag.ErrorMessage</H6>
+<form asp-action="TicketGeneration">
+
+    @Html.HiddenFor(model => model.TripType, new { @value = enumTripType.one_way })
+    @Html.HiddenFor(model => model.arrivalCityID, new { @value = Model.arrivalCityID })
+    @Html.HiddenFor(model => model.ReservationID, new { @value = Model.ReservationID })
+    @Html.HiddenFor(model => model.arrivalDate, new { @value = Model.arrivalDate })
+    @Html.HiddenFor(model => model.arrivingFlightDetails, new { @value = Model.arrivingFlightDetails })
+    @Html.HiddenFor(model => model.departingCityID, new { @value = Model.departingCityID })
+    @Html.HiddenFor(model => model.departingFlightDetails, new { @value = Model.departingFlightDetails })
+    @Html.HiddenFor(model => model.departureDate, new { @value = Model.departureDate })
+    @Html.HiddenFor(model => model.NumberOfPassengers, new { @value = Model.NumberOfPassengers })
+    @Html.HiddenFor(model => model.departureFlightDetailID, new { @value = Model.departureFlightDetailID })
+    @Html.HiddenFor(model => model.arrivingFlightDetailID, new { @value = Model.arrivingFlightDetailID })
+    @Html.HiddenFor(model => model.availableDepartureSeats, new { @value = Model.availableDepartureSeats })
+    @Html.HiddenFor(model => model.availableArrivalSeats, new { @value = Model.availableArrivalSeats })
+    @Html.HiddenFor(model => model.customeremail, new { @value = Model.customeremail })
+
+
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.OneA, true) 1A</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.OneB, true) 1B</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.TwoA, true) 2A</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.TwoB, true) 2B</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.ThreeA, true) 3A</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.ThreeB, true) 3B</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.ThreeC, true) 3C</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.ThreeD, true) 3D</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.FourA, true) 4A</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.FourB, true) 4B</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.FourC, true) 4C</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.FourD, true) 4D</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.FiveA, true) 5A</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.FiveB, true) 5B</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.FiveC, true) 5C</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedDepartureSeat, Seats.FiveD, true) 5D</label>
+
+
+
+
+
+
+    <h1>Please Select Your Seat For Your Returning Flight:</h1>
+
+    <H6>@ViewBag.TakenSeatsrt</H6>
+
+    <H6>@ViewBag.ErrorMessage</H6>
+
+
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.OneA, true) 1A</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.OneB, true) 1B</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.TwoA, true) 2A</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.TwoB, true) 2B</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.ThreeA, true) 3A</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.ThreeB, true) 3B</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.ThreeC, true) 3C</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.ThreeD, true) 3D</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.FourA, true) 4A</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.FourB, true) 4B</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.FourC, true) 4C</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.FourD, true) 4D</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.FiveA, true) 5A</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.FiveB, true) 5B</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.FiveC, true) 5C</label>
+    <label class="radio">@Html.RadioButtonFor(model => model.selectedReturnSeat, Seats.FiveD, true) 5D</label>
+
+
+
+
+
+
+
+
+    <div class="form-group">
+        <input type="submit" value="Select Seat + Confirm Checkout" class="btn btn-primary" />
+    </div>
+</form>
