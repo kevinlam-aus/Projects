@@ -1,4 +1,4 @@
-# Projects
+# College Projects
 A quick glimpse into my coding experience both personal and professional.
 
 There are two main folders in this repository, both folders highlight my accomplishments in learning a language.
